@@ -1,6 +1,6 @@
 # TextScan [![Platform](https://img.shields.io/badge/platform-Android-green.svg)](https://www.android.com) [![License: Apache 2](https://img.shields.io/badge/license-Apache%202-blue.svg)](http://www.apache.org/licenses/LICENSE-2.0)
 
-Lightweight OCR Scanner based on Google Text Recognition API
+Scan text -> Scan more text -> Edit scanned text -> SaveAsPDF / Share
 
 <!-- preview screenshoots -->
 <div text-align="middle">
