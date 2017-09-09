@@ -141,7 +141,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Common.stringBuilderResult.append(stringBuilderTemp);
                 Common.stringBuilderResult.append(" ****** \n");
-                Toast.makeText(MainActivity.this, "Added to result: \n" + stringBuilderTemp.toString(), Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "Added", Toast.LENGTH_SHORT).show();
             }
         });
 

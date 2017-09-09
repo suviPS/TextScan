@@ -52,8 +52,6 @@ public class EditResultActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
 
-                //TODO check permissions for WRITE_EXTERNAL_STORAGE
-
                 View mLayout = EditResultActivity.this.getLayoutInflater().inflate(R.layout.alertdialog_edit_edittext, null);
                 final EditText fileName = mLayout.findViewById(R.id.edit_alertdialog_edittext_name);
 
@@ -69,6 +67,7 @@ public class EditResultActivity extends AppCompatActivity {
                 alert.show();
             }
         });
+
 
 
     }
@@ -105,10 +104,17 @@ public class EditResultActivity extends AppCompatActivity {
     }
 
     private void shareOption(){
+
+        String text = editTextResult.getText().toString().trim();
+        if(text.equals("")){
+            Toast.makeText(this, "Can't share, no content detected", Toast.LENGTH_SHORT).show();
+            return;
+        }
+
         Intent intent = new Intent();
         intent.setAction(Intent.ACTION_SEND);
         intent.setType("text/plain");
-        intent.putExtra(Intent.EXTRA_TEXT, editTextResult.getText().toString());
+        intent.putExtra(Intent.EXTRA_TEXT, text);
 
         if(shareActionProvider != null)
             shareActionProvider.setShareIntent(intent);

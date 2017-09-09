@@ -3,13 +3,13 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
+    android:orientation="horizontal"
     tools:context="tk.ksfdev.textscan.MainActivity"
     android:background="@color/main_background">
 
     <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="match_parent"
+        android:layout_width="0dp"
         android:layout_weight="1"
         >
 
@@ -41,10 +41,11 @@
 
     <Button
         android:id="@+id/buttonAddText"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Add text"
-        android:textSize="16sp"
+        android:layout_width="60dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="0dp"
+        android:text="+"
+        android:textSize="26sp"
         android:textColor="@color/main_add_text_button_text"
         android:background="@color/main_add_text_button_background"
         />
