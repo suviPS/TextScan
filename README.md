@@ -4,13 +4,13 @@ Lightweight OCR Scanner based on Google Text Recognition API
 
 <!-- preview screenshoots -->
 <div text-align="middle">
- <img src="preview_images/prev_01.png" width=200 hspace="2"/>
- <img src="preview_images/prev_02.png" width=200 hspace="2"/>
- <img src="preview_images/prev_03.png" width=200 hspace="2"/>
- <img src="preview_images/prev_04.png" width=200 hspace="2"/>
- <img src="preview_images/prev_05.png" width=200 hspace="2"/>
- <img src="preview_images/prev_06.png" width=200 hspace="2"/>
- <img src="preview_images/prev_07.png" height=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_01.png" width=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_02.png" width=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_03.png" width=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_04.png" width=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_05.png" width=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_06.png" width=200 hspace="2"/>
+ <img src="https://github.com/suviPS/textscan/blob/master/perview_images/prev_07.png" height=200 hspace="2"/>
 </div>
 
 
