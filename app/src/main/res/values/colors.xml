@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- SplashActivity -->
+    <color name="splash_background_color">#a9a9a9</color>
+
+    <!-- AlertDialog-->
+    <color name="alert_background">#f7f7f7</color>
+
+    <!-- Main Activity -->
+    <color name="main_background">#ff00ff</color>
+    <color name="main_add_text_button_background">#4b999c</color>
+    <color name="main_add_text_button_text">#30276e</color>
+    <color name="main_text_color">#bebebe</color>
+
+
+    <!-- Edit Activity -->
+
+
+
+
+</resources>
