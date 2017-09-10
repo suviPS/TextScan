@@ -13,7 +13,8 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled true
+            //iText 5 requires classes that proGuard deletes, we'll see about iText 7
+            minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
